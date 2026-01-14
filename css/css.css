@@ -496,7 +496,7 @@ padding-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    padding: 10px 15px;
+    padding: 10px 15px 40px 15px;
 }
 
 #s4 img{
@@ -526,7 +526,7 @@ padding-bottom: 25px;
 }
 #s4 span{
 
-    gap: 15px;
+  align-content: space-evenly;
 }
 
 .s4aaa{
@@ -538,6 +538,7 @@ padding-left: 25px;
 border-width: 1px;
 border-color: #FBBBCD;
 background-color: white;
+    border-style: solid;
 
 font-weight: 500;
 font-size: 16px;
