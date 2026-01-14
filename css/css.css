@@ -509,6 +509,7 @@ padding-bottom: 70px;
 
     text-align: center;
     padding: 20px 0;
+    font-size: 18px;
 }
 
 #s4 p{
@@ -545,4 +546,59 @@ font-size: 16px;
 line-height: 16px;
 text-align: center;
 color: black;
+}
+
+
+#s5{
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#s5d1{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#s5a1{
+
+    padding-top: 13px;
+padding-right: 25px;
+padding-bottom: 13px;
+padding-left: 25px;
+border-width: 1px;
+border-color: #FBBBCD;
+background-color: white;
+    border-style: solid;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+color: black;
+
+}
+
+#s5 h3{
+    font-size: 18px;
+}
+
+#s5 a{
+    color: black;
+}
+
+.s5a2{
+
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+#s5d2{
+
+    display: grid;
+    grid-template-columns: 1f 1fr 1fr;
 }
