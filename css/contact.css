@@ -1,0 +1,338 @@
+*{
+
+    margin: 0;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+    font-family: "Noto sans";
+ 
+}
+
+h1{
+
+font-family: Gloria Hallelujah;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+padding: 20px 0px;
+}
+
+h2{
+
+font-family: Gloria Hallelujah;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+
+}
+
+h3{
+
+font-family: Gloria Hallelujah;
+font-weight: 400;
+font-size: 28px;
+line-height: 28px;
+
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+ul{
+
+    list-style: none;
+}
+
+
+/* ↑↑↑ style appliqué à tout */
+/* ↓↓↓ header */
+
+header{
+
+    max-width: 1903px;
+display: flex;
+margin: auto;
+justify-content: space-evenly;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+header img{
+
+    max-width: 180px;
+}
+
+header ul{
+display: flex;
+gap: 15px;
+padding: 0;
+
+}
+
+header nav{
+
+    align-content: space-evenly;
+}
+
+header div{
+
+    align-content: space-evenly;
+    width: 210px;
+padding-right: 10px;
+padding-left: 10px;
+text-align: center;
+}
+
+header i{
+    margin: 0 6px;
+    color: #CC3900;
+}
+
+header a{
+
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: black;
+
+}
+
+header a:hover{
+
+    color: #CC3900;
+}
+
+#bm{
+
+    display: none;
+}
+
+@media screen and (max-width :1024px) {
+    
+    header nav{
+
+        display: none;
+    }
+
+#bm{
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+   align-self: center;
+}
+
+header div{
+
+    display: none;
+}
+
+header{
+    justify-content: space-between;
+}
+
+}
+
+/* footer↓↓↓ (c cpcc du header) */
+
+footer{
+
+    max-width: 1903px;
+display: flex;
+margin: auto;
+justify-content: space-evenly;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+footer img{
+
+    max-width: 180px;
+}
+
+footer ul{
+display: flex;
+gap: 15px;
+padding: 0;
+
+}
+
+footer nav{
+
+    align-content: space-evenly;
+}
+
+#ftd2{
+
+    align-content: space-evenly;
+    width: 210px;
+padding-right: 10px;
+padding-left: 10px;
+text-align: center;
+}
+
+footer i{
+    margin: 0 6px;
+    color: #CC3900;
+}
+
+footer a{
+
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: black;
+
+}
+
+footer a:hover{
+
+    color: #CC3900;
+}
+
+#ftd1{
+
+    display: grid;
+}
+#ftd3{
+justify-content: center;
+    display: flex;
+}
+
+#ftd3 a{
+
+    font-weight: 400;
+}
+
+
+@media screen and (max-width :1024px) {
+    
+    #ftd1{
+
+        display: none;
+    }
+
+
+
+footer{
+    justify-content: space-between;
+}
+
+}
+#submenu{
+    display: none;
+}
+
+#bm:hover #submenu{
+    
+    background-color: white;
+    display: grid;
+    list-style: none;
+    gap: 15px;
+    position: absolute;
+    padding: 15px 0;
+}
+
+/*  ↑↑↑ ça change pas */
+
+section {background-image:url(../img/f178c69b0daf7b8947f82f56f38421d7504092c1.png)}
+section {background-position: right;}
+section {background-repeat: no-repeat;}
+section {background-size: 36%;}
+
+section{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    min-height: 446px;
+    justify-content: space-evenly;
+        gap: 15px;
+        padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p1 p{
+font-family: Gloria Hallelujah;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+}
+
+.p1{
+    display: flex;
+    padding-top: 25px;
+}
+
+section i{
+
+    color: #CC3900;
+    padding: 5px 20px 5px 0;
+}
+
+form{
+
+    display: grid;
+}
+
+section>article>p{
+    max-width: 550px;
+}
+
+label{
+
+
+line-height: 16px;
+align-content: end;
+padding-bottom: 10px;
+
+}
+
+input{
+    color: #7A7A7A;
+    max-width: 460px;
+    width: 445px;
+    border-color: #818A91;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+form button{
+width: 450px;
+height: 40px;
+max-width: 460px;
+padding-top: 8px;
+padding-right: 196px;
+padding-bottom: 8px;
+padding-left: 196px;
+
+border-radius: 3px;
+background-color: #FBBBCD;
+border-width: 0;
+margin-top: 15px;
+
+color: white;
+}
+
+textarea{
+    border-radius: 3px;
+}
+
+@media screen and (max-width :1024px) {
+section{
+    display: grid;
+}
+form textarea{
+    max-width: 450px;
+}
+
+form{
+    justify-content: space-evenly;
+}
+
+section {background-size: 70%;}
+}
