@@ -579,10 +579,14 @@ line-height: 16px;
 text-align: center;
 color: black;
 
+margin-bottom: 50px;
 }
 
 #s5 h3{
     font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 
 #s5 a{
@@ -594,11 +598,29 @@ color: black;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
+padding-top: 15px;
 
 }
 
 #s5d2{
 
     display: grid;
-    grid-template-columns: 1f 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
 }
+
+#s5 p{
+    padding-bottom: 15px;
+}
+
+#s5 a{
+    padding-top: 15px;
+}
+
+#s5 img{
+
+    width: 100%;
+}
+
+
