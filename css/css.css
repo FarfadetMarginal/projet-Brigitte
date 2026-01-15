@@ -624,3 +624,49 @@ padding-top: 15px;
 }
 
 
+#s6{
+    background-color: #CC3900;
+}
+
+#s6gd{
+    margin: auto;
+    max-width: 800px;
+    min-height: 500px;
+    align-content: space-evenly;
+    padding: 15px;
+
+}
+
+#s6 h2{
+color: white;
+padding: 50px 0;
+    text-align: center;
+}
+
+#s6 p{
+    color: white;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+#s6 a{
+padding-top: 13px;
+padding-right: 25px;
+padding-bottom: 13px;
+padding-left: 25px;
+border-width: 1px;
+border-color: #FBBBCD;
+border-style: solid;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+
+color:white;
+
+margin-bottom: 50px;
+
+    display: block;
+    width: fit-content;
+    place-self: center;
+
+}
