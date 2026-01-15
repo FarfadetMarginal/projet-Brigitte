@@ -430,7 +430,7 @@ text-decoration-thickness: 0%;
     margin: auto;
 }
 
-#s3 button{
+#s3d1> a{
 
 padding-top: 13px;
 padding-right: 25px;
@@ -439,11 +439,17 @@ padding-left: 25px;
 border-width: 1px;
 border-color: #FBBBCD;
 background-color: white;
+border-style: solid;
+color: black;
 
 font-weight: 500;
 font-size: 16px;
 line-height: 16px;
 text-align: center;
+}
+
+#s3d1> a:hover{
+    background-color: #cc3a001e;
 }
 
 

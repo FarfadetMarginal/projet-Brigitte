@@ -7,21 +7,14 @@
  
 }
 
-h1{
 
-font-family: Gloria Hallelujah;
-font-weight: 400;
-font-size: 45px;
-line-height: 45px;
-padding: 20px 0px;
-}
 
 h2{
 
 font-family: Gloria Hallelujah;
 font-weight: 400;
-font-size: 45px;
-line-height: 45px;
+font-size: 25px;
+line-height: 30px;
 
 }
 
@@ -237,102 +230,62 @@ footer{
     padding: 15px 0;
 }
 
-/*  ↑↑↑ ça change pas */
+/*  ↑↑↑ ça change pas fin des fois si  */
 
-section {background-image:url(../img/f178c69b0daf7b8947f82f56f38421d7504092c1.png)}
-section {background-position: right;}
-section {background-repeat: no-repeat;}
-section {background-size: 36%;}
 
-section{
-    display: flex;
-    max-width: 1440px;
-    margin: auto;
-    min-height: 446px;
-    justify-content: space-evenly;
-    gap: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+h1{
 
-.p1 p{
 font-family: Gloria Hallelujah;
 font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+font-size: 45px;
+line-height: 45px;
+padding: 20px 0px;
 
+    max-width: 1440px;
+    margin: auto;
 }
 
-.p1{
+section> div{
+
     display: flex;
-    padding-top: 25px;
+    justify-content: space-evenly;
 }
 
-section i{
-
-    color: #CC3900;
-    padding: 5px 20px 5px 0;
+section{
+        max-width: 1440px;
+    margin: auto;
 }
-
-form{
-
-    display: grid;
-}
-
-section>article>p{
-    max-width: 550px;
-}
-
-label{
-
-
-line-height: 16px;
-align-content: end;
-padding-bottom: 10px;
+section article{
+    max-width: 332px;
+        padding: 20px 15px;
 
 }
 
-input{
-    color: #7A7A7A;
-    max-width: 460px;
-    width: 445px;
-    border-color: #818A91;
-    border-width: 1px;
-    border-radius: 3px;
-}
-
-form button{
-width: 450px;
-height: 40px;
-max-width: 460px;
-padding-top: 8px;
-padding-right: 196px;
-padding-bottom: 8px;
-padding-left: 196px;
-
-border-radius: 3px;
-background-color: #FBBBCD;
-border-width: 0;
-margin-top: 15px;
-
-color: white;
-}
-
-textarea{
-    border-radius: 3px;
+section img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
 }
 
 @media screen and (max-width :1024px) {
-section{
+
+section>div{
     display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
 }
-form textarea{
-    max-width: 450px;
+section>article{
+    justify-self: center;
 }
 
-form{
-    justify-content: space-evenly;
 }
 
-section {background-size: 70%;}
+@media screen and (max-width :748px) {
+
+section>div{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr;
+}
 }
