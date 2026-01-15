@@ -313,6 +313,16 @@ line-height: 16px;
 text-align: center;
 }
 
+#s1 button:hover{
+ 
+    background-color: #cc3a001e;
+
+}
+#s3 button:hover{
+ 
+    background-color: #cc3a001e;
+
+}
 #s2 p{
 
 font-weight: 400;
@@ -551,6 +561,12 @@ text-align: center;
 color: black;
 }
 
+.s4aaa:hover{
+   
+    background-color: #cc3a001e;
+}
+
+
 
 #s5{
     max-width: 1440px;
@@ -585,6 +601,8 @@ color: black;
 margin-bottom: 50px;
 }
 
+
+
 #s5 h3{
     font-size: 18px;
     padding-bottom: 10px;
@@ -594,6 +612,10 @@ margin-bottom: 50px;
 
 #s5 a{
     color: black;
+}
+
+#s5 a:hover{
+    color: #CC3900;
 }
 
 .s5a2{
@@ -630,6 +652,9 @@ padding-top: 15px;
 #s6{
     background-color: #CC3900;
         margin-bottom: 30px;
+}
+#s5a1:hover{
+    background-color: #cc3a001e;
 }
 
 #s6gd{
@@ -673,6 +698,11 @@ margin-bottom: 50px;
     width: fit-content;
     place-self: center;
 
+}
+
+#s6 a:hover{
+    background-color: white;
+    color: #CC3900;
 }
 
 
